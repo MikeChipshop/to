@@ -17,18 +17,18 @@
     <div class="to_footer-quick-links">
         <div class="to_wrap">
             <ul>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
-                <li><a hred="#">Link Item</a></li>
+                <li><a hred="#">Home</a></li>
+                <li><a hred="#">Conference Videos</a></li>
+                <li><a hred="#">Oncology Insights</a></li>
+                <li><a hred="#">Education Zone</a></li>
+                <li><a hred="#">Journal Info</a></li>
+                <li><a hred="#">Editorial Board</a></li>
+                <li><a hred="#">About Us</a></li>
+                <li><a hred="#">Testimonials</a></li>
+                <li><a hred="#">Media Partners</a></li>
+                <li><a hred="#">Press Releases</a></li>
+                <li><a hred="#">Permissions</a></li>
+                <li><a hred="#">Contact</a></li>
             </ul>
         </div>
     </div>

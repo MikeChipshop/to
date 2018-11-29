@@ -3,33 +3,20 @@
         <div class="to_wrap">
             <h3>Media Partners</h3>
             <ul>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-1.jpg"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-2.jpg"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-3.jpg"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-4.jpg"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-5.jpg"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-6.jpg"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-7.jpg"></a></li>
+                <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/media-8.jpg"></a></li>
             </ul>
         </div>
     </div>
     <div class="to_footer-quick-links">
         <div class="to_wrap">
-            <ul>
-                <li><a hred="#">Home</a></li>
-                <li><a hred="#">Conference Videos</a></li>
-                <li><a hred="#">Oncology Insights</a></li>
-                <li><a hred="#">Education Zone</a></li>
-                <li><a hred="#">Journal Info</a></li>
-                <li><a hred="#">Editorial Board</a></li>
-                <li><a hred="#">About Us</a></li>
-                <li><a hred="#">Testimonials</a></li>
-                <li><a hred="#">Media Partners</a></li>
-                <li><a hred="#">Press Releases</a></li>
-                <li><a hred="#">Permissions</a></li>
-                <li><a hred="#">Contact</a></li>
-            </ul>
+            <ul><?php wp_nav_menu( array('theme_location' => 'quick_links' )); ?></ul>
         </div>
     </div>
     <div class="to_footer-sub-footer">
@@ -60,7 +47,8 @@
     </div>
     <div class="to_global-credits">
         <div class="to_wrap">
-            <p>Touch Medical Media Limited, trading as Touch Medical Media, is a private limited company registered in England and Wales at The White House, Mill Road, Goring, Reading, England, RG8 9DD with registered number 08197142. © 2018 All rights reserved.</p>
+            Touch Medical Media Limited, trading as Touch Medical Media, is a private limited company registered in England and Wales at The White House, Mill Road, Goring, Reading, England, RG8 9DD with
+            registered number 08197142. © 2018 All rights reserved.
             <nav>
                 <ul>
                     <li><a href="#">Privacy Policy</a></li>

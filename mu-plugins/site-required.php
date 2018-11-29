@@ -152,7 +152,9 @@ if ( function_exists( 'register_nav_menus' ) ) {
   		array(
             'main_menu' => 'Main Menu',
             'header_bar' => 'Header Bar',
-			'footer_menu' => 'Footer Menu'
+            'footer_menu' => 'Footer Menu',
+            'quick_links' => 'Quick Links',
+
   		)
   	);
 }

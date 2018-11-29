@@ -42,7 +42,7 @@ ENQUEUES
 function to_load_scripts() {
 
 	wp_register_script( 'site-common', get_template_directory_uri() . '/js/site-common.js', array('jquery'),'null',true  );
-	wp_register_style( 'font-css', 'https://fonts.googleapis.com/css?family=Poppins:400,500,700','','', 'screen' );
+	wp_register_style( 'font-css', 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700','','', 'screen' );
 	wp_register_style( 'main-css', get_template_directory_uri() . '/style.css','',time(), 'screen' );
 
 	wp_enqueue_script( 'site-common' );

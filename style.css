@@ -46,7 +46,7 @@ body {
 .to_wrap {
     width:100%;
     padding:0px 20px;
-    max-width:1166px;
+    max-width:1310px;
     margin:0px auto;
 }
 
@@ -203,6 +203,345 @@ body {
     margin:0 auto;
 }
 
+/* Home */
+
+.to_home-section {
+    padding:50px 0px;
+}
+.to_home-section-title {
+    font-size: 54px;
+    color: #142A59;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom:60px;
+}
+.to_link-button {
+    text-align:center;
+}
+.to_link-button a {
+    background-color: #279ab4;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 8px;
+    display:inline-block;
+}
+
+/* Highlights */
+
+.to_home-highlights {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding:25px 0px 30px 0px;
+}
+.to_home-highlights .to_archive-box h1 {
+    color:#142A59;
+    font-size:24px;
+    font-weight:600;
+    line-height: 1.4;
+    padding:10px 0px 20px 0px;
+}
+.to_home-highlights .to_archive-content {
+    font-size:16px;
+    padding-bottom:10px;
+}
+.to_home-highlights .to_archive-secondary-content {
+    font-size:16px;
+}
+.to_home-highlights .to_archive-box {
+    padding: 0px 0px 0px 0px;
+}
+.to_home-highlights .to_archive-box:first-child {
+    padding-right:10px;
+}
+.to_home-highlights .to_archive-box:last-child {
+    padding-left:10px;
+}
+
+/* Home Videos */
+
+.to_home-videos {
+    padding:60px 0px 80px 0px;
+    background-color:#F3F6F9;
+}
+
+.to_home-section-intro {
+    color: #4A4A4A;
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 75%;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+.to_home-videos-pos {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    padding-bottom:50px;
+}
+.to_home-videos-main {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding-right:10px;
+}
+.to_home-videos-pos ul {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding-left:10px;
+}
+.to_home-videos-pos .to_archive-box {
+    padding-right:0px;
+    padding-bottom:0px;
+}
+.to_home-videos-main .to_archive-box h1 {
+    font-size:20px;
+    padding:30px 30px 10px 30px;
+}
+.to_home-videos-main .to_archive-box {
+    padding-bottom:25px;
+    height: 100%;
+}
+.to_home-videos-main .to_archive-box .to_archive-secondary-content {
+    font-size:12px;
+    padding:0px 30px 0px 30px;
+}
+.to_home-videos-pos li {
+    padding-bottom:30px;
+}
+.to_home-videos-pos li:last-child {
+    padding-bottom:0px;
+}
+.to_home-videos-pos li .to_archive-box {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+}
+.to_home-videos-pos li .to_archive-box .to_archive-image-content {
+    -webkit-flex-basis: 45%;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+}
+.to_home-videos-pos li h1 {
+    -webkit-flex-basis: 55%;
+    -ms-flex-preferred-size: 55%;
+    flex-basis: 55%;
+    font-size: 16px;
+    padding: 25px;
+}
+.to_home-videos-highlights h2 {
+    color: #142A59;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+.to_home-videos-highlights ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+/* Articles */
+.to_home-articles {
+    padding-top:120px;
+}
+.to_home-articles-content ul {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -webkit-flex-flow:row wrap;
+    -ms-flex-flow:row wrap;
+    flex-flow:row wrap;
+    margin:0px -10px 50px -10px;
+}
+
+.to_home-articles-content li {
+    -webkit-flex-basis:33.333%;
+    -ms-flex-preferred-size:33.333%;
+    flex-basis:33.333%;
+    padding:0px 10px;
+}
+.to_home-articles-content li:first-child {
+    -webkit-flex-basis:100%;
+    -ms-flex-preferred-size:100%;
+    flex-basis:100%;
+    padding-bottom:40px;
+}
+
+/* Insights */
+
+.to_home-insights {
+    background-color:#F3F6F9;
+}
+.to_home-insights-content {
+    padding-bottom:30px;
+}
+.to_home-insights-content ul {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -webkit-flex-flow:row wrap;
+    -ms-flex-flow:row wrap;
+    flex-flow:row wrap;
+}
+.to_home-insights-content li {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding:0px 20px 20px 0px;
+}
+.to_home-insights-content .to_archive-box {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    border: 1px solid rgba(151,151,151,0.27);
+    padding:0px;
+}
+.to_home-insights-content .to_archive-box .to_archive-image-content {
+    -webkit-flex-basis: 45%;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+}
+.to_home-insights-content .to_archive-box h1 {
+    -webkit-flex-basis: 55%;
+    -ms-flex-preferred-size: 55%;
+    flex-basis: 55%;
+    font-size: 16px;
+    padding: 25px;
+}
+
+/* Home Ad */
+.to_home-ad {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+/* Archives */
+
+.to_archive-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.to_archive-wrap main {
+    -webkit-flex-basis:75%;
+    -ms-flex-preferred-size:75%;
+    flex-basis:75%;
+    padding-bottom: 70px;
+}
+.to_archive-wrap main li {
+    -webkit-flex-basis:33.333%;
+    -ms-flex-preferred-size:33.333%;
+    flex-basis:33.333%;
+}
+
+.to_archive-wrap ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-bottom:60px;
+}
+.to_archive-wrap ul li {
+    -webkit-flex-basis: 33.333%;
+    -ms-flex-preferred-size: 33.333%;
+    flex-basis: 33.333%;
+}
+.to_archive-box {
+    padding:0px 20px 30px 0px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    background-color:#ffffff;
+}
+.to_archive-image-content {
+    position:relative;
+}
+.to_archive-image-content img {
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.to_archive-image-content h2 {
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:#ffffff;
+    padding:10px 11px 10px 40px;
+    font-size:14px;
+    background-color:#283c66;
+}
+.to_share-icons {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+.to_archive-box h1 {
+    color:#142A59;
+    font-size:14px;
+    font-weight:600;
+    line-height: 1.4;
+    padding:20px 0px 8px 0px;
+}
+.to_archive-content {
+    font-size:12px;
+    color:#279BB5;
+    padding-bottom:30px;
+    line-height: 1.6;
+}
+.to_archive-secondary-content {
+    font-size:12px;
+    line-height: 1.6;
+    color:#585858;
+}
+
+/* Sidebar */
+
+.to_sidebar {
+    padding-left:20px;
+    -webkit-flex-basis:25%;
+    -ms-flex-preferred-size:25%;
+    flex-basis:25%;
+}
+.to_sidebar img {
+    width:100%;
+    display:block;
+    height:auto;
+}
+.to_sidebar div {
+    padding-bottom:20px;
+}
 
 /* ------------------------------------------------
  Global Footer
@@ -321,13 +660,17 @@ body {
     font-size:10px;
     font-weight:300;
     padding:20px 0px 40px 0px;
-    line-height:1.6;
+    line-height:2.5;
+}
+.to_global-credits nav {
+    display:inline;
 }
 .to_global-credits ul {
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
+    display:inline;
+}
+.to_global-credits li {
+    display:inline-block;
+    padding:0px 5px;
 }
 .to_global-credits a:link,
 .to_global-credits a:visited,

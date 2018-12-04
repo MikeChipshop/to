@@ -62,5 +62,6 @@
     </div>
 </footer>
 <?php wp_footer(); ?>
+<link href="<?php bloginfo('stylesheet_directory'); ?>/css/all.min.css" rel="stylesheet">
 </body>
 </html>

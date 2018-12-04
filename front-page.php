@@ -4,7 +4,7 @@
         <div class="to_archive-box">
             <div class="to_archive-image-content">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                <h2>Lung Cancer</h2>
+                <h2><i class="fal fa-file-alt"></i>Lung Cancer</h2>
                 <div class="to_share-icons">Share</div>
             </div>
             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -19,7 +19,7 @@
         <div class="to_archive-box">
             <div class="to_archive-image-content">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                <h2>Lung Cancer</h2>
+                <h2><i class="fal fa-file-alt"></i>Lung Cancer</h2>
                 <div class="to_share-icons">Share</div>
             </div>
             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -40,7 +40,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="fas fa-play-circle"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Arnaud Méjean, ASCO 2018 – Cytoreductive nephrectomy and the CARMENA trial</h1>
@@ -56,7 +56,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="far fa-eye"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -73,7 +73,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="fal fa-file-alt"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -90,7 +90,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="fal fa-file-alt"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -107,7 +107,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="fas fa-play-circle"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -124,7 +124,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="far fa-eye"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -141,7 +141,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="far fa-eye"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -158,7 +158,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="fal fa-file-alt"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -175,7 +175,7 @@
                         <div class="to_archive-box">
                             <div class="to_archive-image-content">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                                <h2>Lung Cancer</h2>
+                                <h2><i class="fas fa-play-circle"></i>Lung Cancer</h2>
                                 <div class="to_share-icons">Share</div>
                             </div>
                             <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -221,7 +221,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fas fa-play-circle"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -235,7 +235,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fas fa-play-circle"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -245,7 +245,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fas fa-play-circle"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -255,7 +255,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fas fa-play-circle"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -272,7 +272,7 @@
 <section class="to_home-articles to_home-section">
     <div class="to_wrap">
         <div class="to_home-articles-intro to_home-section-intro">
-            <h1 class="to_home-section-title">Articles</h1>
+            <h1 class="to_home-section-title"><i class="fal fa-file-alt">Articles</h1>
             As well as peer-reviewed journals, touchONCOLOGY also provide video interviews, procedures and general updates on the latest trends within the area, as well as featuring carefully selected video from our partners.
         </div>
         <div class="to_home-articles-content">
@@ -281,7 +281,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fal fa-file-alt">Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -291,7 +291,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fal fa-file-alt">Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -301,7 +301,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fal fa-file-alt">Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -311,7 +311,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="fal fa-file-alt">Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -328,7 +328,7 @@
 <section class="to_home-insights to_home-section">
     <div class="to_wrap">
         <div class="to_home-insights-intro to_home-section-intro">
-            <h1 class="to_home-section-title">Insights</h1>
+            <h1 class="to_home-section-title"><i class="far fa-eye"></i>Insights</h1>
             The following are quick, non peer-reviewed, opinion-based updates addressing current trends and opinion on the most recent advances in the area of oncology.
         </div>
         <div class="to_home-insights-content">
@@ -337,7 +337,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="far fa-eye"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -347,7 +347,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="far fa-eye"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -357,7 +357,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="far fa-eye"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>
@@ -367,7 +367,7 @@
                     <div class="to_archive-box">
                         <div class="to_archive-image-content">
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/post-image.jpg" alt="#">
-                            <h2>Lung Cancer</h2>
+                            <h2><i class="far fa-eye"></i>Lung Cancer</h2>
                             <div class="to_share-icons">Share</div>
                         </div>
                         <h1>Finding and Treating Gaucher Disease Type 1 – The Role of the Haematologist</h1>

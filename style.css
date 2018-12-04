@@ -144,6 +144,7 @@ body {
     font-size:16px;
     color:#142A59;
     font-weight:500;
+    font-family: "poppins";
 }
 
 /* Ad */
@@ -531,9 +532,21 @@ body {
     top:0px;
     left:0px;
     color:#ffffff;
-    padding:10px 11px 10px 40px;
+    padding:10px 11px;
     font-size:14px;
     background-color:#283c66;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.to_archive-image-content h2 i {
+    font-size:20px;
+    margin-right:20px;
 }
 .to_share-icons {
     position:absolute;

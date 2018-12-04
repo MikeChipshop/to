@@ -17,6 +17,27 @@
             <nav class="to_header-bar-nav">
                 <ul><?php wp_nav_menu( array('theme_location' => 'header_bar' )); ?></ul>
             </nav>
+            <div class="to_header-bar-right">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fal fa-envelope"></i>Subscribe</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-user"></i>User Login</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="to_header-ad">
@@ -26,12 +47,12 @@
 		<div class="to_wrap">
 			<h1 class="to_global-logo">
 				<a href="<?php bloginfo('url'); ?>">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-placeholder.jpg" alt="#">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="#">
 				</a>
 			</h1>
 			<nav class="to_global-nav">
 				<ul>
-					<?php wp_nav_menu( array('theme_location' => 'main_menu' )); ?>
+                    <?php wp_nav_menu( array('theme_location' => 'main_menu' )); ?>
 				</ul>
 			</nav>
 		</div>
@@ -57,7 +78,7 @@
                     <li><a href="#">Haematology</a></li>
                     <li><a href="#">Thyroid Cancer</a></li>
                     <li><a href="#">Radiotherapy</a></li>
-                    <li><a href="#">View All</a></li>
+                    <li class="to_filters-view-all"><a href="#">View All <i class="fal fa-chevron-down"></i></a></li>
                 </ul>
             </nav>
         </div>

@@ -35,13 +35,12 @@
     <div class="to_footer-websites">
         <div class="to_wrap">
             <ul>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
-                <li><a hred="#"><img src="#"></a></li>
+                <li><a hred="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-touch-endocrinology.jpg"></a></li>
+                <li><a hred="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-touch-oncology.jpg"></a></li>
+                <li><a hred="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-touch-ophthalmology.jpg"></a></li>
+                <li><a hred="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-touch-neurology.jpg"></a></li>
+                <li><a hred="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-touch-cardio.jpg"></a></li>
+                <li><a hred="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-touch-respiratory.jpg"></a></li>
             </ul>
         </div>
     </div>

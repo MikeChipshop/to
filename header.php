@@ -66,7 +66,7 @@
         <div class="to_global-search-wrap">
             <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 				<label for="s">Search</label>
-					<input  placeholder="Search" type="search" value="Search" name="s" id="s" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+					<input  placeholder="Search..." type="search" value="Search..." name="s" id="s" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
 					<button id="searchsubmit">Search</button>
                 </form>
         </div>

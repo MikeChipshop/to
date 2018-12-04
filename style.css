@@ -11,13 +11,13 @@ License: Private
 /* ------------------------------------------------
  HTML5 Reset
 ------------------------------------------------ */
-html{ box-sizing: border-box;}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,
+html{ -webkit-box-sizing: border-box; box-sizing: border-box;}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,
 legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;font-family:inherit;font-size:100%;
 font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align: baseline}:focus{/* remember to define focus styles! */outline:0}body{background:#fff;line-height:1}ol,ul{list-style: none}
 table{/* tables still need 'cellspacing="0"' in the markup */border-collapse:separate;border-spacing:0}caption,th,td{font-weight:normal;text-align:left}blockquote:before,blockquote:after,q:before,q:after{content: ""}
 blockquote,q{quotes: "" ""}a img{border: 0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display: block}.clear{clear:both}.clearfix:after{content:".";visibility:hidden;display:block;height:0;
 clear:both}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}strong{font-weight:bold;}em{font-style:italic}del{text-decoration: line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-*, *:after, *:before {box-sizing:border-box;}
+*, *:after, *:before {-webkit-box-sizing:border-box;box-sizing:border-box;}
 
 
 /* ------------------------------------------------
@@ -202,6 +202,39 @@ body {
     max-width:503px;
     margin:0 auto;
 }
+.to_global-search-wrap form {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+}
+.to_global-search-wrap label {
+    display:none;
+}
+.to_global-search-wrap input {
+    font-size: 16px;
+    color: rgba(74,74,74,.5);;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 11px 40px;
+    border: 1px solid #142A59;
+    min-width:400px;
+}
+.to_global-search-wrap button {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #142A59;
+    background-color: #142A59;
+    padding: 13px 10px;
+    margin-left: 20px;
+}
+
 
 /* Home */
 
@@ -602,7 +635,8 @@ body {
     background-color:#F3F6F9;
     border:1px solid #CECECE;
     display:block;
-    box-shadow: 0 0 7px 0 rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,0.23);
+            box-shadow: 0 0 7px 0 rgba(0,0,0,0.23);
     text-decoration:none;
     font-size:14px;
     font-weight:500;

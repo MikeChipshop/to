@@ -391,7 +391,4 @@
         </div>
     </div>
 </section>
-<div class="to_home-ad">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/ad-placeholder.jpg" alt="test">
-</div>
 <?php get_footer(); ?>

@@ -1,3 +1,6 @@
+<div class="to_home-ad">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/ad-placeholder.jpg" alt="test">
+</div>
 <footer class="to_global-footer">
     <div class="to_footer-media-partners">
         <div class="to_wrap">

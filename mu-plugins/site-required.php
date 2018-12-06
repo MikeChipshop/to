@@ -213,3 +213,102 @@ $classes[] = $post->post_type . '-' . $post->post_name;
 return $classes;
 }
 add_filter( 'body_class', 'add_slug_body_class' );
+
+/***************************************************
+/ Video Post Type
+/***************************************************/
+
+add_action( 'init', 'register_cpt_video' );
+
+function register_cpt_video() {
+
+    $labels = array(
+        'name' => _x( 'Video', 'video' ),
+        'singular_name' => _x( 'Video', 'video' ),
+        'add_new' => _x( 'Add New', 'video' ),
+        'add_new_item' => _x( 'Add New', 'video' ),
+        'edit_item' => _x( 'Edit', 'video' ),
+        'new_item' => _x( 'New', 'video' ),
+        'view_item' => _x( 'View', 'video' ),
+        'search_items' => _x( 'Search', 'video' ),
+        'not_found' => _x( 'None found', 'video' ),
+        'not_found_in_trash' => _x( 'None found in bin', 'video' ),
+        'parent_item_colon' => _x( 'Parent:', 'video' ),
+        'menu_name' => _x( 'Videos', 'video' ),
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'hierarchical' => true,
+        'description' => 'Post type for videos',
+        'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'author' ),
+        //'taxonomies' => array('product-category'),
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'menu_position' => 20,
+        'show_in_nav_menus' => true,
+        'publicly_queryable' => true,
+        'exclude_from_search' => false,
+        'has_archive' => true,
+        'query_var' => true,
+        'can_export' => true,
+		'menu_icon' => 'dashicons-video-alt3',
+        'capability_type' => 'post',
+        'show_in_rest' => true
+    );
+
+    register_post_type( 'video', $args );
+}
+
+/***************************************************
+/ Insights Post Type
+/***************************************************/
+
+add_action( 'init', 'register_cpt_insight' );
+
+function register_cpt_insight() {
+
+    $labels = array(
+        'name' => _x( 'Insight', 'insight' ),
+        'singular_name' => _x( 'Insight', 'insight' ),
+        'add_new' => _x( 'Add New', 'insight' ),
+        'add_new_item' => _x( 'Add New', 'insight' ),
+        'edit_item' => _x( 'Edit', 'insight' ),
+        'new_item' => _x( 'New', 'insight' ),
+        'view_item' => _x( 'View', 'insight' ),
+        'search_items' => _x( 'Search', 'insight' ),
+        'not_found' => _x( 'None found', 'insight' ),
+        'not_found_in_trash' => _x( 'None found in bin', 'insight' ),
+        'parent_item_colon' => _x( 'Parent:', 'insight' ),
+        'menu_name' => _x( 'Insights', 'insight' ),
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'hierarchical' => true,
+        'description' => 'Post type for insights',
+        'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'author' ),
+        //'taxonomies' => array('product-category'),
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'menu_position' => 20,
+        'show_in_nav_menus' => true,
+        'publicly_queryable' => true,
+        'exclude_from_search' => false,
+        'has_archive' => true,
+        'query_var' => true,
+        'can_export' => true,
+		'menu_icon' => 'dashicons-visibility',
+        'capability_type' => 'post',
+        'show_in_rest' => true
+    );
+
+    register_post_type( 'insight', $args );
+}
+
+function my_custom_admin_menu(){
+	remove_menu_page('edit-comments.php');
+}
+add_action('admin_menu', 'my_custom_admin_menu');
